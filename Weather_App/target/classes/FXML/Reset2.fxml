@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.Reset2Controller">
+   <children>
+      <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+         <content>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2828.0" prefWidth="780.0">
+               <children>
+                  <AnchorPane fx:id="anchor_pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-border-width: 4; -fx-border-color: #d9ffb3;" styleClass="pane" stylesheets="@style.css">
+                     <children>
+                        <Label fx:id="city" alignment="CENTER" layoutX="47.0" layoutY="50.0" prefHeight="111.0" prefWidth="357.0" text="Sylhet" textFill="#f2f2f2" wrapText="true">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="country" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="23.0" prefHeight="42.0" prefWidth="112.0" text="BD" textFill="#f8f8f8">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="temp1" alignment="CENTER" layoutX="205.0" layoutY="152.0" prefHeight="96.0" prefWidth="210.0" text="21°C" textFill="#fcfafa">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="404.0" layoutY="76.0" prefHeight="328.0" prefWidth="164.0">
+                           <children>
+                              <Label prefHeight="40.0" prefWidth="123.0" text="Date : " textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="40.0" prefWidth="123.0" text="Time :" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Description :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Temp_Max :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Temp_Min :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="115.0" text="Clouds :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Pressure :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Humidity :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="133.0" text="Wind Speed :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Wind Direction :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="574.0" layoutY="76.0" prefHeight="328.0" prefWidth="199.0">
+                           <children>
+                              <Label fx:id="t1" prefHeight="40.0" prefWidth="197.0" text="t1" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="tt" prefHeight="40.0" prefWidth="196.0" text="tt" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="d1" prefHeight="31.0" prefWidth="197.0" text="d1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t2" prefHeight="31.0" prefWidth="196.0" text="t2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t3" prefHeight="31.0" prefWidth="196.0" text="t3" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="c1" prefHeight="31.0" prefWidth="197.0" text="c1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="p1" prefHeight="31.0" prefWidth="197.0" text="p1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="h1" prefHeight="31.0" prefWidth="196.0" text="h1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w1" prefHeight="31.0" prefWidth="197.0" text="w1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w2" prefHeight="31.0" prefWidth="195.0" text="w2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fx:id="icon" fitHeight="184.0" fitWidth="195.0" layoutX="21.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Snow_Occasional.png" />
+                           </image>
+                        </ImageView>
+                        <Button fx:id="refresh1" layoutX="714.0" layoutY="10.0" mnemonicParsing="false" onAction="#refresh1_button_clicked" prefHeight="23.0" prefWidth="56.0" text="Refresh" textFill="#3a0cae" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_pane1" layoutY="400.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-border-width: 4; -fx-border-color: #d9ffb3;" styleClass="pane" stylesheets="@style.css">
+                     <children>
+                        <Label fx:id="city1" alignment="CENTER" layoutX="47.0" layoutY="50.0" prefHeight="111.0" prefWidth="357.0" text="Sylhet" textFill="#f2f2f2" wrapText="true">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="country1" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="23.0" prefHeight="42.0" prefWidth="112.0" text="BD" textFill="#f8f8f8">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="temp11" alignment="CENTER" layoutX="205.0" layoutY="152.0" prefHeight="96.0" prefWidth="210.0" text="21°C" textFill="#fcfafa">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="436.0" layoutY="98.0" prefHeight="328.0" prefWidth="164.0">
+                           <children>
+                              <Label prefHeight="40.0" prefWidth="123.0" text="Date : " textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Description :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Temp_Max :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Temp_Min :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="115.0" text="Clouds :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Pressure :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Humidity :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="133.0" text="Wind Speed :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Wind Direction :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="615.0" layoutY="98.0" prefHeight="328.0" prefWidth="165.0">
+                           <children>
+                              <Label fx:id="t11" prefHeight="40.0" prefWidth="162.0" text="t1" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="d11" prefHeight="30.0" prefWidth="141.0" text="d1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t21" prefHeight="30.0" prefWidth="141.0" text="t2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t31" prefHeight="30.0" prefWidth="141.0" text="t3" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="c11" prefHeight="30.0" prefWidth="141.0" text="c1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="p11" prefHeight="30.0" prefWidth="141.0" text="p1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="h11" prefHeight="30.0" prefWidth="141.0" text="h1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w11" prefHeight="30.0" prefWidth="141.0" text="w1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w21" prefHeight="30.0" prefWidth="141.0" text="w2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fx:id="icon1" fitHeight="184.0" fitWidth="195.0" layoutX="21.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Snow_Occasional.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_pane2" layoutY="800.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-border-width: 4; -fx-border-color: #d9ffb3;" styleClass="pane" stylesheets="@style.css">
+                     <children>
+                        <Label fx:id="city2" alignment="CENTER" layoutX="47.0" layoutY="50.0" prefHeight="111.0" prefWidth="357.0" text="Sylhet" textFill="#f2f2f2" wrapText="true">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="country2" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="23.0" prefHeight="42.0" prefWidth="112.0" text="BD" textFill="#f8f8f8">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="temp12" alignment="CENTER" layoutX="205.0" layoutY="152.0" prefHeight="96.0" prefWidth="210.0" text="21°C" textFill="#fcfafa">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="436.0" layoutY="98.0" prefHeight="328.0" prefWidth="164.0">
+                           <children>
+                              <Label prefHeight="40.0" prefWidth="123.0" text="Date : " textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Description :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Temp_Max :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Temp_Min :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="115.0" text="Clouds :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Pressure :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Humidity :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="133.0" text="Wind Speed :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Wind Direction :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="615.0" layoutY="98.0" prefHeight="328.0" prefWidth="165.0">
+                           <children>
+                              <Label fx:id="t12" prefHeight="40.0" prefWidth="162.0" text="t1" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="d12" prefHeight="30.0" prefWidth="141.0" text="d1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t22" prefHeight="30.0" prefWidth="141.0" text="t2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t32" prefHeight="30.0" prefWidth="141.0" text="t3" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="c12" prefHeight="30.0" prefWidth="141.0" text="c1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="p12" prefHeight="30.0" prefWidth="141.0" text="p1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="h12" prefHeight="30.0" prefWidth="141.0" text="h1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w12" prefHeight="30.0" prefWidth="141.0" text="w1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w22" prefHeight="30.0" prefWidth="141.0" text="w2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fx:id="icon2" fitHeight="184.0" fitWidth="195.0" layoutX="21.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Snow_Occasional.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_pane3" layoutY="1200.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-border-width: 4; -fx-border-color: #d9ffb3;" styleClass="pane" stylesheets="@style.css">
+                     <children>
+                        <Label fx:id="city3" alignment="CENTER" layoutX="47.0" layoutY="50.0" prefHeight="111.0" prefWidth="357.0" text="Sylhet" textFill="#f2f2f2" wrapText="true">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="country3" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="23.0" prefHeight="42.0" prefWidth="112.0" text="BD" textFill="#f8f8f8">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="temp13" alignment="CENTER" layoutX="205.0" layoutY="152.0" prefHeight="96.0" prefWidth="210.0" text="21°C" textFill="#fcfafa">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="436.0" layoutY="98.0" prefHeight="328.0" prefWidth="164.0">
+                           <children>
+                              <Label prefHeight="40.0" prefWidth="123.0" text="Date : " textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Description :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Temp_Max :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Temp_Min :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="115.0" text="Clouds :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Pressure :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Humidity :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="133.0" text="Wind Speed :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Wind Direction :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="615.0" layoutY="98.0" prefHeight="328.0" prefWidth="165.0">
+                           <children>
+                              <Label fx:id="t13" prefHeight="40.0" prefWidth="162.0" text="t1" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="d13" prefHeight="30.0" prefWidth="141.0" text="d1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t23" prefHeight="30.0" prefWidth="141.0" text="t2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t33" prefHeight="30.0" prefWidth="141.0" text="t3" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="c13" prefHeight="30.0" prefWidth="141.0" text="c1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="p13" prefHeight="30.0" prefWidth="141.0" text="p1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="h13" prefHeight="30.0" prefWidth="141.0" text="h1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w13" prefHeight="30.0" prefWidth="141.0" text="w1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w23" prefHeight="30.0" prefWidth="141.0" text="w2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fx:id="icon3" fitHeight="184.0" fitWidth="195.0" layoutX="21.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Snow_Occasional.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_pane4" layoutY="1600.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-border-width: 4; -fx-border-color: #d9ffb3;" styleClass="pane" stylesheets="@style.css">
+                     <children>
+                        <Label fx:id="city4" alignment="CENTER" layoutX="47.0" layoutY="50.0" prefHeight="111.0" prefWidth="357.0" text="Sylhet" textFill="#f2f2f2" wrapText="true">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="country4" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="23.0" prefHeight="42.0" prefWidth="112.0" text="BD" textFill="#f8f8f8">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="temp14" alignment="CENTER" layoutX="205.0" layoutY="152.0" prefHeight="96.0" prefWidth="210.0" text="21°C" textFill="#fcfafa">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="436.0" layoutY="98.0" prefHeight="328.0" prefWidth="164.0">
+                           <children>
+                              <Label prefHeight="40.0" prefWidth="123.0" text="Date : " textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Description :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Temp_Max :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Temp_Min :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="115.0" text="Clouds :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Pressure :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Humidity :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="133.0" text="Wind Speed :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Wind Direction :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="615.0" layoutY="98.0" prefHeight="328.0" prefWidth="165.0">
+                           <children>
+                              <Label fx:id="t14" prefHeight="40.0" prefWidth="162.0" text="t1" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="d14" prefHeight="30.0" prefWidth="141.0" text="d1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t24" prefHeight="30.0" prefWidth="141.0" text="t2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t34" prefHeight="30.0" prefWidth="141.0" text="t3" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="c14" prefHeight="30.0" prefWidth="141.0" text="c1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="p14" prefHeight="30.0" prefWidth="141.0" text="p1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="h14" prefHeight="30.0" prefWidth="141.0" text="h1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w14" prefHeight="30.0" prefWidth="141.0" text="w1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w24" prefHeight="30.0" prefWidth="141.0" text="w2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fx:id="icon4" fitHeight="184.0" fitWidth="195.0" layoutX="21.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Snow_Occasional.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_pane5" layoutY="2000.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-border-width: 4; -fx-border-color: #d9ffb3;" styleClass="pane" stylesheets="@style.css">
+                     <children>
+                        <Label fx:id="city5" alignment="CENTER" layoutX="47.0" layoutY="50.0" prefHeight="111.0" prefWidth="357.0" text="Sylhet" textFill="#f2f2f2" wrapText="true">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="country5" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="23.0" prefHeight="42.0" prefWidth="112.0" text="BD" textFill="#f8f8f8">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="temp15" alignment="CENTER" layoutX="205.0" layoutY="152.0" prefHeight="96.0" prefWidth="210.0" text="21°C" textFill="#fcfafa">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="436.0" layoutY="98.0" prefHeight="328.0" prefWidth="164.0">
+                           <children>
+                              <Label prefHeight="40.0" prefWidth="123.0" text="Date : " textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Description :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Temp_Max :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Temp_Min :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="115.0" text="Clouds :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Pressure :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Humidity :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="133.0" text="Wind Speed :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Wind Direction :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="615.0" layoutY="98.0" prefHeight="328.0" prefWidth="165.0">
+                           <children>
+                              <Label fx:id="t15" prefHeight="40.0" prefWidth="162.0" text="t1" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="d15" prefHeight="30.0" prefWidth="141.0" text="d1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t25" prefHeight="30.0" prefWidth="141.0" text="t2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t35" prefHeight="30.0" prefWidth="141.0" text="t3" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="c15" prefHeight="30.0" prefWidth="141.0" text="c1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="p15" prefHeight="30.0" prefWidth="141.0" text="p1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="h15" prefHeight="30.0" prefWidth="141.0" text="h1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w15" prefHeight="30.0" prefWidth="141.0" text="w1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w25" prefHeight="30.0" prefWidth="141.0" text="w2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fx:id="icon5" fitHeight="184.0" fitWidth="195.0" layoutX="21.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Snow_Occasional.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="anchor_pane6" layoutY="2400.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="780.0" style="-fx-border-width: 4; -fx-border-color: #d9ffb3;" styleClass="pane" stylesheets="@style.css">
+                     <children>
+                        <Label fx:id="city6" alignment="CENTER" layoutX="47.0" layoutY="50.0" prefHeight="111.0" prefWidth="357.0" text="Sylhet" textFill="#f2f2f2" wrapText="true">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="reset_button_clicked" layoutX="258.0" layoutY="326.0" mnemonicParsing="false" onAction="#reset_button_clicked" prefHeight="41.0" prefWidth="89.0" text="Reset" textFill="#2a14b5">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Button>
+                        <Label fx:id="country6" alignment="CENTER" contentDisplay="CENTER" layoutX="600.0" layoutY="23.0" prefHeight="42.0" prefWidth="112.0" text="BD" textFill="#f8f8f8">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="temp16" alignment="CENTER" layoutX="205.0" layoutY="152.0" prefHeight="96.0" prefWidth="210.0" text="21°C" textFill="#fcfafa">
+                           <font>
+                              <Font size="54.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="436.0" layoutY="98.0" prefHeight="328.0" prefWidth="164.0">
+                           <children>
+                              <Label prefHeight="40.0" prefWidth="123.0" text="Date : " textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Description :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Temp_Max :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Temp_Min :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="115.0" text="Clouds :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="31.0" prefWidth="123.0" text="Pressure :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="123.0" text="Humidity :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="133.0" text="Wind Speed :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="30.0" prefWidth="168.0" text="Wind Direction :" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="615.0" layoutY="98.0" prefHeight="328.0" prefWidth="165.0">
+                           <children>
+                              <Label fx:id="t16" prefHeight="40.0" prefWidth="162.0" text="t1" textFill="WHITE">
+                                 <font>
+                                    <Font size="28.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="d16" prefHeight="30.0" prefWidth="141.0" text="d1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t26" prefHeight="30.0" prefWidth="141.0" text="t2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="t36" prefHeight="30.0" prefWidth="141.0" text="t3" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="c16" prefHeight="30.0" prefWidth="141.0" text="c1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="p16" prefHeight="30.0" prefWidth="141.0" text="p1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="h16" prefHeight="30.0" prefWidth="141.0" text="h1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w16" prefHeight="30.0" prefWidth="141.0" text="w1" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="w26" prefHeight="30.0" prefWidth="141.0" text="w2" textFill="WHITE">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <ImageView fx:id="icon6" fitHeight="184.0" fitWidth="195.0" layoutX="21.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Snow_Occasional.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

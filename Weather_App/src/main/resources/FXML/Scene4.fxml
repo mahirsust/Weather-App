@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="about_scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="358.0" prefWidth="378.0" style="-fx-background-color: #99b3ff; -fx-border-color: #ffff4d; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.Scene4Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="19.0" layoutY="26.0" prefHeight="27.0" prefWidth="340.0" style="-fx-font-weight: bold;" text="About Me :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="51.0" layoutY="65.0" prefHeight="21.0" prefWidth="277.0" style="-fx-font-weight: bold;" text="Muhammad Mahir Hasan Chowdhury">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="60.0" layoutY="97.0" prefHeight="17.0" prefWidth="258.0" style="-fx-font-weight: bold;" text="Student of CSE '13 Batch, SUST ">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="20.0" layoutY="126.0" prefHeight="21.0" prefWidth="340.0" style="-fx-font-weight: bold;" text="Email : mahirhasancse@gmail.com">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="213.0" prefHeight="17.0" prefWidth="239.0" style="-fx-font-weight: bold;" text="Under SuperVision of :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="241.0" prefHeight="17.0" prefWidth="239.0" style="-fx-font-weight: bold;" text="Md. Eamin Rahman">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="67.0" layoutY="268.0" prefHeight="21.0" prefWidth="277.0" style="-fx-font-weight: bold;" text="Assistant Professor Dept. of CSE, SUST">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+   </children>
+</Pane>
